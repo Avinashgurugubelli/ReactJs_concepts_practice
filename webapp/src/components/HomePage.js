@@ -1,14 +1,15 @@
 import React from 'react';
 
+import PageHeader from './common/Header';
 
 function HomePage() {
     return (
-        <div className="jumbotron">
-            <h1>Welcome to web development using React</h1>
-            <p>Keep coding</p>
-            <a href="/home">Home</a> |
-            <a href="/about">About</a>
-        </div>
+        <>
+            <PageHeader />
+            <div className="jumbotron">
+                <h1>Welcome to React web development</h1>
+            </div>
+        </>
     );
 }
 
