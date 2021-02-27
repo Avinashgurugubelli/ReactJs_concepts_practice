@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PageHeader from './common/Header';
+import PageHeader from './common/PageHeader';
 
 function HomePage() {
     return (

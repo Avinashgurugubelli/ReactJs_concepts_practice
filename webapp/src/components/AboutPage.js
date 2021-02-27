@@ -1,6 +1,6 @@
 // React imports
 import React from 'react';
-import PageHeader from './common/Header';
+import PageHeader from './common/PageHeader';
 
 class AboutPage extends React.Component {
     render() {

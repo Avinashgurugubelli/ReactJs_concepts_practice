@@ -3,7 +3,7 @@ import React from 'react';
 // Custom imports
 import { getCourses } from '../../api/courseApi'
 import CoursesHeader from '../courses/CoursesHeader';
-import PageHeader from '../common/Header';
+import PageHeader from '../common/PageHeader';
 
 class Courses extends React.Component {
     state = {
