@@ -15,6 +15,8 @@ import ListRendererComponent from './practice/list-rendering/components/list-ren
 import SampleForm from './practice/forms-basics/sample-form';
 import RefDemoHost from './practice/ref-demo/RefDemoHost';
 import PortalDemoHost from './practice/portal-demo/PortalDemoHost';
+import HOCHost from './practice/higher-order-components/HOCHost';
+import RenderPropsHost from './practice/render-props-demo/RenderPropsHost';
 
 function App() {
     const route = window.location.pathname;
@@ -53,6 +55,12 @@ function App() {
     }
     if(route === '/portal-demo') {
         return <PortalDemoHost/>
+    }
+    if(route === '/hoc-demo') {
+        return <HOCHost/>
+    }
+    if(route === '/render-props-demo') {
+        return <RenderPropsHost/>
     }
     else {
         return <HomePage />;

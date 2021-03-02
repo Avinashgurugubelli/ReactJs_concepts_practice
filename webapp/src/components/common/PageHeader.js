@@ -26,6 +26,8 @@ function PageHeader() {
                             <a className="dropdown-item" href="/form-basics">6. Basics of forms</a>
                             <a className="dropdown-item" href="/refs-demo">7. Refs demo</a>
                             <a className="dropdown-item" href="/portal-demo">8. Portal demo</a>
+                            <a className="dropdown-item" href="/hoc-demo">9. Higher order components (HOC)</a>
+                            <a className="dropdown-item" href="/render-props-demo">10. Render props</a>
                         </div>
                     </li>
                 </ul>
