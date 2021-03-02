@@ -10,6 +10,11 @@ import CoursesViaFunctionComponent from './courses/CoursesViaFunctionComponent';
 import EventBindHost from './practice/event-binding/components/event-bind-host/event-bind-host';
 import HomePage from './HomePage';
 import ComponentCommunicationHost from './practice/components-communication/ComponentCommunicationHost';
+import ConditionalRenderingComponent from './practice/conditional-rendering/conditional-rendering-component';
+import ListRendererComponent from './practice/list-rendering/components/list-renderer/list-renderer-component';
+import SampleForm from './practice/forms-basics/sample-form';
+import RefDemoHost from './practice/ref-demo/RefDemoHost';
+import PortalDemoHost from './practice/portal-demo/PortalDemoHost';
 
 function App() {
     const route = window.location.pathname;
@@ -33,6 +38,21 @@ function App() {
     }
     if (route === '/component-communication') {
         return <ComponentCommunicationHost/>;
+    }
+    if (route === '/conditional-rendering') {
+        return <ConditionalRenderingComponent/>;
+    }
+    if (route === '/list-rendering') {
+        return <ListRendererComponent/>;
+    }
+    if (route === '/form-basics') {
+        return <SampleForm/>;
+    }
+    if(route === '/refs-demo') {
+        return <RefDemoHost/>
+    }
+    if(route === '/portal-demo') {
+        return <PortalDemoHost/>
     }
     else {
         return <HomePage />;

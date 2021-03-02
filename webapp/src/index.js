@@ -1,6 +1,8 @@
 // CSS imports
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import 'fontsource-roboto';
+
 // JS imports
 import $ from 'react';
 import Popper from 'popper.js';

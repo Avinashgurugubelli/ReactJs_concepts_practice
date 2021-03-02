@@ -18,9 +18,14 @@ function PageHeader() {
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle"  href="#" data-toggle="dropdown">Practice</a>
                         <div className="dropdown-menu">
-                            <a class="dropdown-item" href="/props-and-state">1. Prop and state</a>
-                            <a class="dropdown-item" href="/event-binding">2. Event binding</a>
-                            <a class="dropdown-item" href="/component-communication">3. Component communication via Props</a>
+                            <a className="dropdown-item" href="/props-and-state">1. Prop and state</a>
+                            <a className="dropdown-item" href="/event-binding">2. Event binding</a>
+                            <a className="dropdown-item" href="/component-communication">3. Component communication via Props</a>
+                            <a className="dropdown-item" href="/conditional-rendering">4. Conditional rendering</a>
+                            <a className="dropdown-item" href="/list-rendering">5. List rendering</a>
+                            <a className="dropdown-item" href="/form-basics">6. Basics of forms</a>
+                            <a className="dropdown-item" href="/refs-demo">7. Refs demo</a>
+                            <a className="dropdown-item" href="/portal-demo">8. Portal demo</a>
                         </div>
                     </li>
                 </ul>
