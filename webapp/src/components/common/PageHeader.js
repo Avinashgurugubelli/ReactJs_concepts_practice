@@ -12,9 +12,9 @@ function PageHeader() {
                     <li className="nav-item">
                         <a className="nav-link" href="/about">About React</a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a className="nav-link" href="/courses">Courses</a>
-                    </li>
+                    </li> */}
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle"  href="#" data-toggle="dropdown">Practice</a>
                         <div className="dropdown-menu">
@@ -29,6 +29,13 @@ function PageHeader() {
                             <a className="dropdown-item" href="/hoc-demo">9. Higher order components (HOC)</a>
                             <a className="dropdown-item" href="/render-props-demo">10. Render props</a>
                             <a className="dropdown-item" href="/context-demo">11. Context demo</a>
+                        </div>
+                    </li>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle"  href="#" data-toggle="dropdown">React hooks practice</a>
+                        <div className="dropdown-menu">
+                            <a className="dropdown-item" href="/use-state-hook-demo">1. Using State Hook</a>
+                            
                         </div>
                     </li>
                 </ul>

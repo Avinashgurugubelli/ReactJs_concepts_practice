@@ -18,6 +18,7 @@ import PortalDemoHost from './practice/portal-demo/PortalDemoHost';
 import RefDemoHost from './practice/ref-demo/RefDemoHost';
 import RenderPropsHost from './practice/render-props-demo/RenderPropsHost';
 import SampleForm from './practice/forms-basics/sample-form';
+import UseStateHookHost from './ReactHooks/use-state-hook/UseStateHookHost';
 
 function App() {
     const route = window.location.pathname;
@@ -34,41 +35,46 @@ function App() {
         return <CoursesViaFunctionComponent />;
     }
     if (route === '/props-and-state') {
-        return <GreetCard/>;
+        return <GreetCard />;
     }
     if (route === '/event-binding') {
-        return <EventBindHost/>;
+        return <EventBindHost />;
     }
     if (route === '/component-communication') {
-        return <ComponentCommunicationHost/>;
+        return <ComponentCommunicationHost />;
     }
     if (route === '/conditional-rendering') {
-        return <ConditionalRenderingComponent/>;
+        return <ConditionalRenderingComponent />;
     }
     if (route === '/list-rendering') {
-        return <ListRendererComponent/>;
+        return <ListRendererComponent />;
     }
     if (route === '/form-basics') {
-        return <SampleForm/>;
+        return <SampleForm />;
     }
-    if(route === '/refs-demo') {
-        return <RefDemoHost/>
+    if (route === '/refs-demo') {
+        return <RefDemoHost />
     }
-    if(route === '/portal-demo') {
-        return <PortalDemoHost/>
+    if (route === '/portal-demo') {
+        return <PortalDemoHost />
     }
-    if(route === '/hoc-demo') {
-        return <HOCHost/>
+    if (route === '/hoc-demo') {
+        return <HOCHost />
     }
-    if(route === '/render-props-demo') {
-        return <RenderPropsHost/>
+    if (route === '/render-props-demo') {
+        return <RenderPropsHost />
     }
-    if(route === '/context-demo') {
-        return <ContextHost/>
+    if (route === '/context-demo') {
+        return <ContextHost />
+    }
+
+    // react hooks demo
+    if (route === '/use-state-hook-demo') {
+        return <UseStateHookHost />
     }
     else {
         return <HomePage />;
     }
 }
 
-export default App; 
+export default App;
