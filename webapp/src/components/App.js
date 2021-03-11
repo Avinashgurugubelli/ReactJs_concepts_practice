@@ -4,19 +4,20 @@ import React from 'react';
 // Custom imports
 import { GreetCard } from './practice/prop-state/components/greet-card/greet-card';
 import AboutPage from './AboutPage';
+import ComponentCommunicationHost from './practice/components-communication/ComponentCommunicationHost';
+import ConditionalRenderingComponent from './practice/conditional-rendering/conditional-rendering-component';
+import ContextHost from './practice/context/ContextHost';
 import Courses from './courses/Courses';
 import CoursesViaClassComponent from './courses/CoursesViaClassComponent';
 import CoursesViaFunctionComponent from './courses/CoursesViaFunctionComponent';
 import EventBindHost from './practice/event-binding/components/event-bind-host/event-bind-host';
-import HomePage from './HomePage';
-import ComponentCommunicationHost from './practice/components-communication/ComponentCommunicationHost';
-import ConditionalRenderingComponent from './practice/conditional-rendering/conditional-rendering-component';
-import ListRendererComponent from './practice/list-rendering/components/list-renderer/list-renderer-component';
-import SampleForm from './practice/forms-basics/sample-form';
-import RefDemoHost from './practice/ref-demo/RefDemoHost';
-import PortalDemoHost from './practice/portal-demo/PortalDemoHost';
 import HOCHost from './practice/higher-order-components/HOCHost';
+import HomePage from './HomePage';
+import ListRendererComponent from './practice/list-rendering/components/list-renderer/list-renderer-component';
+import PortalDemoHost from './practice/portal-demo/PortalDemoHost';
+import RefDemoHost from './practice/ref-demo/RefDemoHost';
 import RenderPropsHost from './practice/render-props-demo/RenderPropsHost';
+import SampleForm from './practice/forms-basics/sample-form';
 
 function App() {
     const route = window.location.pathname;
@@ -61,6 +62,9 @@ function App() {
     }
     if(route === '/render-props-demo') {
         return <RenderPropsHost/>
+    }
+    if(route === '/context-demo') {
+        return <ContextHost/>
     }
     else {
         return <HomePage />;

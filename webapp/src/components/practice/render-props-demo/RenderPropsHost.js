@@ -11,13 +11,13 @@ class RenderPropsHost extends Component {
                 <PageHeader />
                 <div className="jumbotron">
                     Hello
-                    <Counter render={(count, incrementCount) => {
+                    <Counter render={(count, incrementCount) => (
                         <FirstCounter count={count} incrementCount={incrementCount} />
-                    }} />
+                    )} />
 
-                    <Counter render={(count, incrementCount) => {
+                    <Counter render={(count, incrementCount) => (
                         <SecondCounter count={count} incrementCount={incrementCount} />
-                    }} />
+                    )} />
                 </div>
             </React.Fragment>
         )

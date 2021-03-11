@@ -1,0 +1,23 @@
+%box {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 50vh;
+    margin-top: 3rem;
+    padding: 2rem;
+    height: auto;
+}
+
+.component-a-box {
+    @extend %box;
+    border: 3px solid orangered;
+}
+
+.component-b-box {
+    @extend %box;
+    border: 3px solid royalblue;
+}
+
+.component-c-box {
+    @extend %box;
+    border: 3px solid teal;
+}

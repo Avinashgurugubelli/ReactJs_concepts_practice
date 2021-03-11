@@ -24,10 +24,11 @@ function PageHeader() {
                             <a className="dropdown-item" href="/conditional-rendering">4. Conditional rendering</a>
                             <a className="dropdown-item" href="/list-rendering">5. List rendering</a>
                             <a className="dropdown-item" href="/form-basics">6. Basics of forms</a>
-                            <a className="dropdown-item" href="/refs-demo">7. Refs demo</a>
+                            <a className="dropdown-item" href="/refs-demo">7. Refs and forwardRef demo</a>
                             <a className="dropdown-item" href="/portal-demo">8. Portal demo</a>
                             <a className="dropdown-item" href="/hoc-demo">9. Higher order components (HOC)</a>
                             <a className="dropdown-item" href="/render-props-demo">10. Render props</a>
+                            <a className="dropdown-item" href="/context-demo">11. Context demo</a>
                         </div>
                     </li>
                 </ul>
