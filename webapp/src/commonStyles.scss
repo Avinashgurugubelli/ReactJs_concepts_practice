@@ -21,3 +21,7 @@
     @extend %box;
     border: 3px solid teal;
 }
+
+.box {
+    @extend %box;
+}

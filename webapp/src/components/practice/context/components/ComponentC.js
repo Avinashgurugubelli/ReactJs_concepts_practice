@@ -12,7 +12,7 @@ class ComponentC extends Component {
                 <UserConsumer>
                     {
                         (userName) => {
-                            return <h2>Hello, <span style={{color: "#b30000"}}>{userName}</span></h2>
+                            return <h2>Hello, <span style={{color: "#b30000"}}>{userName ? userName : "Guest"}</span></h2>
                         }
                     }
                 </UserConsumer>

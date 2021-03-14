@@ -19,6 +19,9 @@ import RefDemoHost from './practice/ref-demo/RefDemoHost';
 import RenderPropsHost from './practice/render-props-demo/RenderPropsHost';
 import SampleForm from './practice/forms-basics/sample-form';
 import UseStateHookHost from './ReactHooks/use-state-hook/UseStateHookHost';
+import UseEffectHookHost from './ReactHooks/use-effect-hook/UseEffectHookHost';
+import UseContextHookHost from './ReactHooks/use-context-hook/UseContextHookHost';
+import ReducerHookHost from './ReactHooks/use-reducer-hook/ReducerHookHost';
 
 function App() {
     const route = window.location.pathname;
@@ -71,6 +74,16 @@ function App() {
     // react hooks demo
     if (route === '/use-state-hook-demo') {
         return <UseStateHookHost />
+    }
+    if (route === '/use-effect-hook-demo') {
+        return <UseEffectHookHost />
+    }
+    if (route === "/use-context-hook-demo") {
+        return <UseContextHookHost />
+    }
+
+    if (route ==="/use-reducer-hook-demo") {
+        return <ReducerHookHost />
     }
     else {
         return <HomePage />;

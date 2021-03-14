@@ -16,7 +16,7 @@ function PageHeader() {
                         <a className="nav-link" href="/courses">Courses</a>
                     </li> */}
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle"  href="#" data-toggle="dropdown">Practice</a>
+                        <a className="nav-link dropdown-toggle"  href="#" data-toggle="dropdown">Fundamentals practice</a>
                         <div className="dropdown-menu">
                             <a className="dropdown-item" href="/props-and-state">1. Prop and state</a>
                             <a className="dropdown-item" href="/event-binding">2. Event binding</a>
@@ -35,7 +35,9 @@ function PageHeader() {
                         <a className="nav-link dropdown-toggle"  href="#" data-toggle="dropdown">React hooks practice</a>
                         <div className="dropdown-menu">
                             <a className="dropdown-item" href="/use-state-hook-demo">1. Using State Hook</a>
-                            
+                            <a className="dropdown-item" href="/use-effect-hook-demo">2. Using Effect Hook</a>
+                            <a className="dropdown-item" href="/use-context-hook-demo">3. Using Context Hook</a>
+                            <a className="dropdown-item" href="/use-reducer-hook-demo">4. Using Reducer Hook</a>
                         </div>
                     </li>
                 </ul>
