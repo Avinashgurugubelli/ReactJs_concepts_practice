@@ -22,6 +22,7 @@ import UseStateHookHost from './ReactHooks/use-state-hook/UseStateHookHost';
 import UseEffectHookHost from './ReactHooks/use-effect-hook/UseEffectHookHost';
 import UseContextHookHost from './ReactHooks/use-context-hook/UseContextHookHost';
 import ReducerHookHost from './ReactHooks/use-reducer-hook/ReducerHookHost';
+import ReactReduxHost from './reduxPractice/ReactReduxHost';
 
 function App() {
     const route = window.location.pathname;
@@ -84,6 +85,9 @@ function App() {
 
     if (route ==="/use-reducer-hook-demo") {
         return <ReducerHookHost />
+    }
+    if (route ==="/react-redux-example-1") {
+        return <ReactReduxHost />
     }
     else {
         return <HomePage />;

@@ -17,8 +17,10 @@
     "popper.js": "^1.16.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-redux": "^7.2.3",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^4.0.3",
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "run-p start:dev start:api",

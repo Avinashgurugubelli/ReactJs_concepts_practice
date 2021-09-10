@@ -40,6 +40,13 @@ function PageHeader() {
                             <a className="dropdown-item" href="/use-reducer-hook-demo">4. Using Reducer Hook</a>
                         </div>
                     </li>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle"  href="#" data-toggle="dropdown">React redux practice</a>
+                        <div className="dropdown-menu">
+                        <a className="dropdown-item" href="/react-redux-example-1">1. React redux example 1</a>
+                         
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </>
