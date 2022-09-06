@@ -1,16 +1,29 @@
 import React, { Component } from 'react'
 import PageHeader from '../../common/PageHeader';
 
+
 class ConditionalRenderingComponent extends Component {
 
     constructor(props) {
         super(props)
 
         this.state = {
-            isLoggedIn: true,
+            isLoggedIn: false,
             name: "Avinash"
         }
     }
+
+    noLoggedUserComponent = (props) => {
+        return (
+            <React.Fragment>
+                <PageHeader />
+                <div className="Jumbotron">
+                    <div>User not logged, welcome guest</div>
+                </div>
+            </React.Fragment>
+        )
+    }
+
     render() {
         //#region  method one - using IF else
         if (this.state.isLoggedIn) {
@@ -25,13 +38,8 @@ class ConditionalRenderingComponent extends Component {
         }
         else {
             return (
-                <React.Fragment>
-                    <PageHeader />
-                    <div className="Jumbotron">
-                        <div>User not logged, welcome guest</div>
-                    </div>
-                </React.Fragment>
-            )
+                <this.noLoggedUserComponent />
+            );
         }
         //#endregion method one - using IF else
 

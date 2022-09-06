@@ -6,10 +6,10 @@ export class FirstCounterComponent extends Component {
         const { count, incrementCounter } = this.props;
         return (
 
-            <div>
-                 <h3>counter value: {count}</h3>
+            <div style={{ border: "solid 2px green", padding: "2rem" }}>
+                <h3>counter value: {count}</h3>
                 <button className="btn btn-primary" onClick={incrementCounter}>Increment by 1</button>
-               
+
             </div>
         )
     }

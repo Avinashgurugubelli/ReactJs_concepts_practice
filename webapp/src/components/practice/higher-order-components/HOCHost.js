@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import PageHeader from '../../common/PageHeader'
-import  FirstCounter from './components/FirstCounter'
-import  SecondCounter  from './components/SecondCounter'
+import FirstCounter from './components/FirstCounter'
+import SecondCounter from './components/SecondCounter'
+import ThirdCounter from './components/ThirdCounter'
 
 export class HOCHost extends Component {
     render() {
@@ -20,6 +21,10 @@ export class HOCHost extends Component {
                     <div className="row">
                         <div className="col"><FirstCounter /></div>
                         <div className="col"><SecondCounter /></div>
+                    </div>
+                    <hr />
+                    <div className='row'>
+                        <div className="col-6"><ThirdCounter /></div>
                     </div>
                 </div>
             </React.Fragment>

@@ -16,9 +16,10 @@ function PageHeader() {
                         <a className="nav-link" href="/courses">Courses</a>
                     </li> */}
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle"  href="#" data-toggle="dropdown">Fundamentals practice</a>
+                        <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Fundamentals practice</a>
                         <div className="dropdown-menu">
                             <a className="dropdown-item" href="/props-and-state">1. Prop and state</a>
+                            <a className="dropdown-item" href="/props-as-a-functions">1.0. Prop functions</a>
                             <a className="dropdown-item" href="/event-binding">2. Event binding</a>
                             <a className="dropdown-item" href="/component-communication">3. Component communication via Props</a>
                             <a className="dropdown-item" href="/conditional-rendering">4. Conditional rendering</a>
@@ -32,7 +33,7 @@ function PageHeader() {
                         </div>
                     </li>
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle"  href="#" data-toggle="dropdown">React hooks practice</a>
+                        <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">React hooks practice</a>
                         <div className="dropdown-menu">
                             <a className="dropdown-item" href="/use-state-hook-demo">1. Using State Hook</a>
                             <a className="dropdown-item" href="/use-effect-hook-demo">2. Using Effect Hook</a>
@@ -41,10 +42,10 @@ function PageHeader() {
                         </div>
                     </li>
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle"  href="#" data-toggle="dropdown">React redux practice</a>
+                        <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">React redux practice</a>
                         <div className="dropdown-menu">
-                        <a className="dropdown-item" href="/react-redux-example-1">1. React redux example 1</a>
-                         
+                            <a className="dropdown-item" href="/react-redux-example-1">1. React redux example 1</a>
+
                         </div>
                     </li>
                 </ul>

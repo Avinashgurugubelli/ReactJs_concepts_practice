@@ -23,6 +23,7 @@ import UseEffectHookHost from './ReactHooks/use-effect-hook/UseEffectHookHost';
 import UseContextHookHost from './ReactHooks/use-context-hook/UseContextHookHost';
 import ReducerHookHost from './ReactHooks/use-reducer-hook/ReducerHookHost';
 import ReactReduxHost from './reduxPractice/ReactReduxHost';
+import PropFunctionsHostComponent from './practice/prop-state/props-functions';
 
 function App() {
     const route = window.location.pathname;
@@ -40,6 +41,9 @@ function App() {
     }
     if (route === '/props-and-state') {
         return <GreetCard />;
+    }
+    if (route === '/props-as-a-functions') {
+        return <PropFunctionsHostComponent />;
     }
     if (route === '/event-binding') {
         return <EventBindHost />;
@@ -83,10 +87,10 @@ function App() {
         return <UseContextHookHost />
     }
 
-    if (route ==="/use-reducer-hook-demo") {
+    if (route === "/use-reducer-hook-demo") {
         return <ReducerHookHost />
     }
-    if (route ==="/react-redux-example-1") {
+    if (route === "/react-redux-example-1") {
         return <ReactReduxHost />
     }
     else {
